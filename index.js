@@ -5,19 +5,16 @@ let header = document.querySelector(".header");
 
 barsIcon.addEventListener("click", showMenu);
 function showMenu() {
-  mobMenu.style.left = `0px`;
   mobMenu.style.visibility = `visible`;
   mobMenu.style.opacity = `1`;
-  mobMenu.style.transition = `.3s`;
   header.classList.add("transparent");
   document.body.classList.add("stop-scrolling");
-};
+}
 
 xmark.addEventListener("click", closeMenu);
 function closeMenu() {
   mobMenu.style.visibility = `hidden`;
   mobMenu.style.opacity = `0`;
-  mobMenu.style.transition = `.3s`;
   header.classList.remove("transparent");
   document.body.classList.remove("stop-scrolling");
-};
+}
