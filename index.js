@@ -16,3 +16,5 @@ function closeMenu() {
   mobMenu.style.opacity = `0`;
   header.classList.remove("transparent");
 }
+
+window.addEventListener("scroll", closeMenu);
