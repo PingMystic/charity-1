@@ -8,7 +8,6 @@ function showMenu() {
   mobMenu.style.visibility = `visible`;
   mobMenu.style.opacity = `1`;
   header.classList.add("transparent");
-  document.body.classList.add("stop-scrolling");
 }
 
 xmark.addEventListener("click", closeMenu);
@@ -16,5 +15,4 @@ function closeMenu() {
   mobMenu.style.visibility = `hidden`;
   mobMenu.style.opacity = `0`;
   header.classList.remove("transparent");
-  document.body.classList.remove("stop-scrolling");
 }
