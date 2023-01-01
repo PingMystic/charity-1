@@ -313,11 +313,7 @@ a {
   justify-content: center;
   align-items: center;
   gap: 50px;
-}
-@media (max-width: 1070px) {
-  .goals-sec .container {
-    flex-direction: column;
-  }
+  flex-direction: column;
 }
 .goals-sec .container .cloud-1 {
   position: absolute;
@@ -346,8 +342,8 @@ a {
 .goals-sec .container .text {
   display: flex;
   flex-direction: column;
-  text-align: start;
-  align-items: flex-start;
+  text-align: center;
+  align-items: center;
   gap: 20px;
 }
 @media (max-width: 1070px) {
@@ -464,9 +460,14 @@ a {
   border: 1px solid #432e9b;
   margin-bottom: 20px;
 }
-@media (max-width: 1070px) {
+@media (max-width: 991px) {
   .goals-sec .container .boxes .box {
-    width: 320px;
+    width: 220px;
+  }
+}
+@media (max-width: 767px) {
+  .goals-sec .container .boxes .box {
+    width: 350px;
   }
 }
 .goals-sec .container .boxes .box:hover {
@@ -1042,9 +1043,35 @@ a {
   display: flex;
   justify-content: center;
   align-items: center;
+  flex-wrap: wrap;
   gap: 70px;
   border-bottom: 1px solid #8f8f912d;
   padding-top: 50px;
+}
+.footer .container .sections > button {
+  display: block;
+  padding: 10px;
+  cursor: pointer;
+  background-color: var(--purple);
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  border: 1px solid white;
+  color: white;
+  font-size: 30px;
+  border-radius: 4px;
+  padding: 10px 20px;
+  margin-bottom: 40px;
+}
+.footer .container .sections > button:hover {
+  background-color: #3e2a99;
+}
+.footer .container .sections > img {
+  width: 60%;
+  margin-bottom: 70px;
+}
+@media (max-width: 767px) {
+  .footer .container .sections > img {
+    width: 100%;
+  }
 }
 .footer .container .sections .section {
   display: flex;
