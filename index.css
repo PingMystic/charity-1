@@ -87,7 +87,7 @@ a {
   align-items: center;
 }
 .header .container .logo-container h1 {
-  font-size: 16px;
+  font-size: 15px;
   color: #392396;
 }
 .header .container .menu-nav {
@@ -878,7 +878,7 @@ a {
   text-align: center;
 }
 .stats .container .content h3 {
-  font-size: 54px;
+  font-size: 40px;
   line-height: 1.15;
   font-weight: 600;
 }
@@ -923,7 +923,7 @@ a {
 }
 @media (max-width: 767px) {
   .stats .container .content .stats-boxes .box h3 {
-    font-size: 60px;
+    font-size: 45px;
   }
 }
 .stats .container .sec-img img {
